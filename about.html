@@ -50,13 +50,8 @@
     </section>
 
     <section class="section">
-      <div class="section-label">Education</div>
-      <ul class="facts">
-        <li>Columbia University, CS — class of 2027</li>
-        <li>Minor: Applied Mathematics</li>
-        <li>GPA: 3.57</li>
-        <li>Coursework: Systems, Algorithms, ML, Databases, Probability</li>
-      </ul>
+      <div class="section-label">Philosophy</div>
+      <p style="margin:0;font-size:12px;line-height:1.8;color:var(--text);">Iterate, iterate, iterate. Keep things lean for easy collaboration and to be kind to your future self.</p>
     </section>
 
     <section class="section">
@@ -66,6 +61,16 @@
         <li>To Live — Yu Hua</li>
         <li>Stoner — John Williams</li>
       </ul>
+    </section>
+
+    <section class="section">
+      <div class="section-label">Snake</div>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+        <span style="font-size:10px;color:var(--muted);">arrow keys or WASD · swipe on mobile</span>
+        <span style="font-size:10px;color:var(--muted);">score: <span id="snakeScore">0</span></span>
+      </div>
+      <canvas id="snakeCanvas" width="480" height="240" style="display:block;width:100%;border:0.5px solid var(--border);border-radius:4px;"></canvas>
+      <p id="snakeMsg" style="font-size:10px;color:var(--faint);margin:8px 0 0;text-align:center;"></p>
     </section>
 
   </main>
@@ -85,5 +90,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/snake.js"></script>
 </body>
 </html>

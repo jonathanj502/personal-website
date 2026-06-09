@@ -224,8 +224,8 @@ img { display: block; }
 .hero-meta li::before { content: "\2192\00a0"; } /* "→ " */
 
 .avatar {
-  width: 72px;
-  height: 72px;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
   border: 0.5px solid var(--border);
   background: var(--img-bg);          /* placeholder — TODO: real photo */

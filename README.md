@@ -27,12 +27,9 @@ python3 -m http.server 8000
 
 ## Remaining TODOs (from the design system)
 
-- Headshot (`.avatar`, square) and about photo (`.about-photo`, 4:5) — currently
-  styled placeholders.
 - Project screenshot for the HTTP Web Server card.
 - Real GitHub repo URLs per project (currently point at the profile).
 - Purchase + self-host Monoweb Book; until then the monospace fallback is used.
-- Hero headline and about copy are first-draft placeholders — rewrite in your voice.
 
 ## Notes
 

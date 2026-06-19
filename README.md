@@ -25,12 +25,6 @@ python3 -m http.server 8000
 # → http://localhost:8000
 ```
 
-## Remaining TODOs (from the design system)
-
-- Project screenshot for the HTTP Web Server card.
-- Real GitHub repo URLs per project (currently point at the profile).
-- Purchase + self-host Monoweb Book; until then the monospace fallback is used.
-
 ## Notes
 
 - Pages use `.html` links so they work opened from disk or any static host.

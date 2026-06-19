@@ -4,17 +4,6 @@
    jonathan-jiang-design-system.md
    ========================================================================== */
 
-/* ---- Font ---------------------------------------------------------------- */
-/* Monoweb Book is a commercial font (Lineto). Drop the licensed .woff2 into
-   /fonts and it loads automatically; until then the monospace fallback is used. */
-@font-face {
-  font-family: 'Monoweb';
-  src: url('../fonts/MonowebBook.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* ---- Color tokens -------------------------------------------------------- */
 :root {
   --bg:         #ffffff;
@@ -54,7 +43,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: 'Monoweb', 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.7;

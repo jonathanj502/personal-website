@@ -25,6 +25,7 @@
   --row-border: #ebebeb;
   --tag-bg:     #f4f4f4;
   --img-bg:     #f0f0f0;
+  --img-dot:    #d0d0d0;
 }
 
 [data-theme="dark"] {
@@ -36,6 +37,7 @@
   --row-border: #1e1e1e;
   --tag-bg:     #1a1a1a;
   --img-bg:     #1e1e1e;
+  --img-dot:    #2e2e2e;
 }
 
 /* ---- Reset / base -------------------------------------------------------- */
@@ -298,9 +300,11 @@ img { display: block; }
 
 .card-img {
   width: 100%;
-  height: 120px;
+  height: 200px;
   object-fit: cover;
-  background: var(--img-bg);          /* placeholder — TODO: real screenshot */
+  background-color: var(--img-bg);
+  background-image: radial-gradient(circle, var(--img-dot) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
 }
 
 .card-body { padding: 12px; }
